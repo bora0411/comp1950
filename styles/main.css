@@ -5,6 +5,17 @@
         Bo Ra Choi
         Marcos Torres Garza
 */
+
+/*
+	HTML Reset created by Eric Meyer
+	http://meyerweb.com
+*/
+@import url("http://meyerweb.com/eric/tools/css/reset/reset.css");
+
+html {
+	height: 100%;
+}
+
 body {
     background-color: #FFFFFF;
     color: #000000;
@@ -14,6 +25,17 @@ body {
 }
 
 /* Header Section*/
+header {
+    top: 0;
+    left: 0;
+    right: 0;
+
+    height: 50px;
+
+    background-color: #999999;
+    z-index: 999;
+}
+
 header h1 {
-    
+
 }
