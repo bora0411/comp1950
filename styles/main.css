@@ -44,3 +44,12 @@ header h1 {
     color: #FFF;
     font-size: 2em;
 }
+
+/* Main Content Section */
+.intro {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    padding: 5px;
+    background-color: #C3E5E6;
+}
