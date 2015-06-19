@@ -5,3 +5,15 @@
         Bo Ra Choi
         Marcos Torres Garza
 */
+body {
+    background-color: #FFFFFF;
+    color: #000000;
+    margin: 0;
+    padding: 1em;
+    font: 1em Arial, Helvetica, sans-serif;
+}
+
+/* Header Section*/
+header h1 {
+    
+}
