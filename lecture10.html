@@ -1,14 +1,12 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<!-- saved from url=(0037)http://bcitcomp.ca/1950/lectures/ten/ -->
-<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
 	<title>comp 1950 | lecture ten: methodology</title>
-	
-	<link rel="stylesheet" type="text/css" href="./lecture10_files/comp1.css" media="screen">
-	<link rel="alternate stylesheet" href="./lecture10_files/overhead.css" type="text/css" media="screen" title="Overhead">
-	<link rel="stylesheet" type="text/css" href="./lecture10_files/print.css" media="print">
-
+	<link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
+	<!--#include file="header.html" -->
 <div id="banner">
 	<a name="top"></a>
 	<h1>british columbia institute of technology</h1>
@@ -24,7 +22,7 @@
 
 	<h2>Agenda</h2>
 		<div class="contblock">
-			<ul>	
+			<ul>
 				<li>final exam preparation</li>
 				<li>collaborative frameworks</li>
 				<li>methodology</li>
@@ -35,7 +33,7 @@
 
 	<h2>Final Exam Preparation</h2>
 		<div class="contblock">
-			<ul>	
+			<ul>
 				<li>session #12 is the final exam, 6-9pm</li>
 				<li>a - written</li>
 				<li>b - practical</li>
@@ -44,7 +42,7 @@
 		</div>
 
 <h2>Collaborative Coding</h2>
-<div class="contblock">	
+<div class="contblock">
 	<p>Working with a team on a multiple file project presents several challenges to the developers: How will we ensure all team members have the latest copy of the codebase? How do we track what each team member has contributed to the project? Collaborative frameworks provide a mechanism for project management that is crucial for team based development.</p>
 	<h4>Collaborative Workflow</h4>
 	<ol>
@@ -56,7 +54,7 @@
 </div>
 
 <h2>What is Git?</h2>
-<div class="contblock">	
+<div class="contblock">
 <ul>
 <li>a Git is a Version Control System (VCS). Open source, created by Linus Torvalds of Linux fame.</li>
 <li>it allows you to update, change, track all of your changes to any code you are working on</li>
@@ -75,7 +73,7 @@
 </div>
 
 <h2>Where to use Git?</h2>
-<div class="contblock">	
+<div class="contblock">
 <ul>
 <li>Git can be installed on almost any system (Win/Mac/Lin) as a client and the server is fairly well deployed as well. </li>
 <li>If you don't have access to a Git server, there are a few services that allow you to do the same. The most well-known, and used, is <a href="http://github.com/">GitHub</a>. </li>
@@ -84,7 +82,7 @@
 </div>
 
 <h2>Create GitHub account</h2>
-<div class="contblock">	
+<div class="contblock">
 <ul>
 <li>Sign up for a <a href="https://github.com/signup/free">free account on GitHub</a>. </li>
 <li>The process is very quick and gets you an account right away.</li>
@@ -93,7 +91,7 @@
 </div>
 
 <h2>Install Git and GitHub GUI</h2>
-<div class="contblock">	
+<div class="contblock">
 <ul>
 <li>While you can use the command line version of git, we are going to take a simpler introduction: using the GUI (Graphical User Interface). </li>
 <li>The process can take a while to install, so download the version appropriate for your system:
@@ -108,7 +106,7 @@
 
 
 <h2>Create your own Repo</h2>
-<div class="contblock">	
+<div class="contblock">
 <ul>
 <li>Once the software is up and running, you will be able to log into your newly created account</li>
 <li>The system will likely recognize you have no repositories created yet, and ask if you want to create one.  </li>
@@ -126,7 +124,7 @@
 
 
 <h2>Adding Files</h2>
-<div class="contblock">	
+<div class="contblock">
 <ul>
 <li>From here on in, adding files is fairly easy. You can add them in Explorer/Finder and git will track which ones are new or have changed.</li>
 <li>Initially, we can <em>commit</em> and <em>push</em> the 2 files that are automatically created (.gitattributes and .gitignore), however, we should create a README file so that anyone browsing the instance will know what is going on.</li>
@@ -142,7 +140,7 @@
 </div>
 
 <h2>Reviewing changes</h2>
-<div class="contblock">	
+<div class="contblock">
 <ul>
 <li>Your files should now be on <a href="https://github.com/">GitHub</a>. You can check by going back to your account and checking to see what repos are there, and what files are in that repo. </li>
 <li>There are a few ways to see changes - clicking on the time it was edited, or viewing the changed files through the GUI.</li>
@@ -152,7 +150,7 @@
 
 
 <h2>Collaborative code editing</h2>
-<div class="contblock">	
+<div class="contblock">
 <h3>Clone a Repo</h3>
 <ul>
 <li>I have created a small repo (just 1 file) that is from our jQuery lecture, and I want to share it with all of you.</li>
@@ -177,7 +175,7 @@
 
 
 <h2>Only the basics</h2>
-<div class="contblock">	
+<div class="contblock">
 <ul>
 <li>We have only covered the mere basics of Git and GitHub today!</li>
 <li>There is a LOT more it can do and can save your bacon when you have your code committed and versioned properly</li>
@@ -205,10 +203,10 @@
 <h3>What is a Methodology?</h3>
 
 <p>
-An organised, documented set 
-of procedures and guidelines for one or more phases of the web development life 
-cycle, such as analysis or design. A step-by-step "cookbook" approach for 
-carrying out the procedure; and an objective set of criteria for determining 
+An organised, documented set
+of procedures and guidelines for one or more phases of the web development life
+cycle, such as analysis or design. A step-by-step "cookbook" approach for
+carrying out the procedure; and an objective set of criteria for determining
 whether the results of the procedure are of acceptable quality. </p>
 
 <p>
@@ -225,18 +223,18 @@ More than just Project Management, but it is derived from it.</p>
 
 <ul>
 	<li><b>Predictable: </b>
-	With a solid methodology, you have a predictable set 
+	With a solid methodology, you have a predictable set
 	of processes and tasks that you, your team, and your clients can rely on.</li>
 	<li><b>Trackable: </b>
 
-	Progress is trackable, as you can look at each process 
+	Progress is trackable, as you can look at each process
 	or task and mark how much has been completed.</li>
 	<li><b>Responsibility: </b>
-	Assigning responsibility to each line item will 
-	allow you to work co-operatively with the client to maintain steady 
+	Assigning responsibility to each line item will
+	allow you to work co-operatively with the client to maintain steady
 	progress.</li>
 	<li><b>Teamwork: </b>
-	If you are working with a team, it is much easier to 
+	If you are working with a team, it is much easier to
 	move forward if you have everyone subscribing to the same methodology.</li>
 </ul>
 </div>
@@ -263,7 +261,7 @@ More than just Project Management, but it is derived from it.</p>
 	<li>There is no one correct methodology</li>
 </ul>
 
-<p>Generally, there are 5 accepted phases in Web Development Methodology.  They are: 
+<p>Generally, there are 5 accepted phases in Web Development Methodology.  They are:
 </p><ul>
 	<li>Phase 1: Definition</li>
 	<li>Phase 2: Site Development</li>
@@ -284,8 +282,8 @@ More than just Project Management, but it is derived from it.</p>
 
 <div class="contblock">
 <p>
-If you want to start a 
-project, it is important to know who your client is, who your team members will 
+If you want to start a
+project, it is important to know who your client is, who your team members will
 be, and what your chance of success is.</p>
 
 <p>
@@ -298,19 +296,19 @@ be, and what your chance of success is.</p>
 	<li>
 	Make you work harder for the project</li>
 	<li>
-	Frequent changes, 'misunderstandings' or 
-	'miscommunication' excuses which can lead to going back a step or two (or 
+	Frequent changes, 'misunderstandings' or
+	'miscommunication' excuses which can lead to going back a step or two (or
 	ten!)</li>
 	<li>
-	Good clients work like team members. They have 
+	Good clients work like team members. They have
 	responsibilities and they hold up their end of the 'bargain'.</li>
 	<li>
 
-	A lot of projects = Not much time to work on *any* 
+	A lot of projects = Not much time to work on *any*
 	project</li>
 	<li>
-	Working as a team member (consultant) on a job? Make 
-	sure you know the project leader, or get a CLEAR set of requirements for 
+	Working as a team member (consultant) on a job? Make
+	sure you know the project leader, or get a CLEAR set of requirements for
 	your services.</li>
 	<li>
 	Bad client can look bad on you.</li>
@@ -320,10 +318,10 @@ be, and what your chance of success is.</p>
 	<li><b>
 
 	Sometimes, you don't have an option! </b>
-	(Your client is your 
+	(Your client is your
 	boss/employer)</li>
 	<li>
-	In this case, you need to be clear about what you 
+	In this case, you need to be clear about what you
 	can/cannot achieve early on, and be prepared to stick to your plan.</li>
 	<li>
 	Make sure you document as MUCH AS POSSIBLE!</li>
@@ -332,39 +330,39 @@ be, and what your chance of success is.</p>
 <p class="warning">Bad Client Early Warning:</p>
 <ul>
 	<li>
-	Unrealistic schedules or desires. Wants the site up 
+	Unrealistic schedules or desires. Wants the site up
 	right away, or in short order</li>
 	<li>
-	Wants to get 'something to look at' before any 
+	Wants to get 'something to look at' before any
 	planning, user testing/profiling, content aggregation or design is done
 	</li>
 	<li>
 	Pretends to know how it is done, difficult to educate</li>
 
 	<li>
-	Compares your efforts to "my neighbor's kid" when it 
+	Compares your efforts to "my neighbor's kid" when it
 	comes to budget time</li>
 	<li>
-	No idea what the content should be - They are the 
+	No idea what the content should be - They are the
 	*owner* of it!</li>
 	<li>
-	Will not sign off, or give final approval for the 
+	Will not sign off, or give final approval for the
 	project. Want to 'just get underway, worry about the details later'</li>
 
 	<li>
 	Indecisive, makes frequent changes.</li>
 	<li>
-	Finds initial discovery/client research to be 
+	Finds initial discovery/client research to be
 	troublesome or a waste of time.</li>
 	<li>
 	Slow decision maker, unresponsive to email requests</li>
 	<li>
 
-	Wants to take control of the creative, driving the 
-	site design, possibly throwing wrenches into the development. Many 
+	Wants to take control of the creative, driving the
+	site design, possibly throwing wrenches into the development. Many
 	repercussions here!</li>
 	<li>
-	Doesn't get involved in the project at all. Want you 
+	Doesn't get involved in the project at all. Want you
 	to just come back with it all finished.</li>
 </ul>
 
@@ -376,7 +374,7 @@ be, and what your chance of success is.</p>
 	<li>
 	Sets realistic goals with realistic schedules</li>
 	<li>
-	Pulls their own weight during the project. Delivers 
+	Pulls their own weight during the project. Delivers
 	on their tasks on time</li>
 	<li>
 	In agreement about schedules, deliverables and budget</li>
@@ -384,21 +382,21 @@ be, and what your chance of success is.</p>
 
 	Decisive, decision-maker and signs off</li>
 	<li>
-	Is clear when building the scope, goals and 
+	Is clear when building the scope, goals and
 	application requirements</li>
 </ul>
 
 <p>
-If you see any of the Early 
+If you see any of the Early
 Warnings, think to yourself: How much do I need this job?</p>
 
 <p>
-Sometimes it is better to 
+Sometimes it is better to
 find yourself a better account rather than suffer through a bad one.</p>
 
 <p>
-If your employer is your 
-client, get into the habit of documenting everything you do, and everything that 
+If your employer is your
+client, get into the habit of documenting everything you do, and everything that
 the project is expected to accomplish.</p>
 
 <p class="warning">Extremely Important!!!</p>
@@ -406,13 +404,13 @@ the project is expected to accomplish.</p>
 	<li>
 	Establish the criteria for success</li>
 	<li>
-	Before the project starts, make sure you both know 
+	Before the project starts, make sure you both know
 	what constitutes a successful project</li>
 
 	<li>
 	Ensure that the client knows what Sign-Off means</li>
 	<li>
-	Use definitive language to describe the project 
+	Use definitive language to describe the project
 	success criteria:</li>
 </ul>
 <p>
@@ -435,7 +433,7 @@ the project is expected to accomplish.</p>
 </ul>
 
 <p>
-Otherwise, the project might 
+Otherwise, the project might
 not ever end.</p>
 
 <p>So, with that optional step out of the way, there are some things to keep in mind before embarking on a project with a new client.</p>
@@ -445,31 +443,31 @@ not ever end.</p>
 <h2>Before Beginning</h2>
 <div class="contblock">
 <p>
-<b>Questions for you and your 
+<b>Questions for you and your
 client</b></p>
 
 <ul>
 	<li>
-	Why are you putting this site up? If redesigning the 
+	Why are you putting this site up? If redesigning the
 	site, then why? Just to 'update the look'?</li>
 	<li>
-	What are your customers telling you or your client? 
-	What kind of things do they want to see? No just on the web, but out of the 
-	company in general. Sometimes, these are the key issues facing a companies 
+	What are your customers telling you or your client?
+	What kind of things do they want to see? No just on the web, but out of the
+	company in general. Sometimes, these are the key issues facing a companies
 	success.</li>
 	<li>
-	What is the competition doing? Are they winning over 
-	customers because of something they are doing that you aren't? Or doing it 
+	What is the competition doing? Are they winning over
+	customers because of something they are doing that you aren't? Or doing it
 	better?</li>
 	<li>
 
-	In the case of a redesign, make sure you include 
-	customers when you can. All of a sudden changing the site can cause 
+	In the case of a redesign, make sure you include
+	customers when you can. All of a sudden changing the site can cause
 	problems.</li>
 	<li><b>
-	Important:</b> Design for CUSTOMERS, not executives. Too many 
-	times, sites get designed because of what the owner wants, and not what the 
-	customers need. 
+	Important:</b> Design for CUSTOMERS, not executives. Too many
+	times, sites get designed because of what the owner wants, and not what the
+	customers need.
 	<ul>
 		<li>
 		Show 'best practices' of other sites</li>
@@ -488,36 +486,36 @@ client</b></p>
 <p class="warning">Red Alerts</p>
 <ul>
 	<li><span class="warning">
-	Content!</span> This is <i>almost always</i> the biggest roadblock 
-	in getting a project completed. Clients promise content, but don't deliver 
+	Content!</span> This is <i>almost always</i> the biggest roadblock
+	in getting a project completed. Clients promise content, but don't deliver
 	on time. </li>
 	<li>
 
-	Sometimes, the content they promise is nothing like 
+	Sometimes, the content they promise is nothing like
 	the content they deliver.</li>
 	<li>
-	Worst of all: People think that Print Content = Web 
+	Worst of all: People think that Print Content = Web
 	Content
  	<ul>
 		<li><b>
 		Strategies</b>:
   		<ul>
 			<li>
-			Engage them early on: What will be on the site? 
+			Engage them early on: What will be on the site?
 			Exactly.</li>
 
 			<li>
-			If the site will have a lot of content, *especially* 
+			If the site will have a lot of content, *especially*
 			if there is no content already: suggest a writer for the content.</li>
 			<li>
-			Review content for 'readability'. Should a writer 
+			Review content for 'readability'. Should a writer
 			be suggested if the content is too technical, or brochure ware?</li>
 			<li>
-			Show them that Print Content and Web Content are 
+			Show them that Print Content and Web Content are
 			different!</li>
 			<li>
 
-			
+
 			<a href="http://www.useit.com/papers/webwriting/">
 			http://www.useit.com/papers/webwriting/</a></li>
 		</ul>
@@ -525,19 +523,19 @@ client</b></p>
 	</ul>
 	</li>
 	<li><span class="warning">
-	Sign-Off!</span> Don't get caught late in the project with "But I 
-	thought you were going to do this" or "I don't like the way this 
-	looks/works/feels". 
+	Sign-Off!</span> Don't get caught late in the project with "But I
+	thought you were going to do this" or "I don't like the way this
+	looks/works/feels".
 	<ul>
 
 		<li><b>
 		Strategies</b>:</li>
 		<li>
-		Identify a SINGLE PERSON who is responsible for 
+		Identify a SINGLE PERSON who is responsible for
 		signing off on all deliverables.</li>
 		<li>
-		If a Committee wants to be part of the process, 
-		that's okay, so long as they nominate ONE PERSON to be the chairperson 
+		If a Committee wants to be part of the process,
+		that's okay, so long as they nominate ONE PERSON to be the chairperson
 		with signing authority.
   		<ul>
 			<li>
@@ -557,14 +555,14 @@ client</b></p>
 		</ul>
 		</li>
 		<li>
-		This will protect you in the end, as you can go back 
-		to your last sign-off and explain that you had completed that step based 
+		This will protect you in the end, as you can go back
+		to your last sign-off and explain that you had completed that step based
 		on the requirements.</li>
 
 	</ul>
 	</li>
 	<li><span class="warning">
-	Scope Creep!</span> This is a slimy monster that can crawl all over your 
+	Scope Creep!</span> This is a slimy monster that can crawl all over your
 	project plan and carve off all of your profit.
  	<ul>
 		<li><b>
@@ -572,26 +570,26 @@ client</b></p>
   		<ul>
 
 			<li>
-			Solid Requirements - This might seem like a picky 
-			process, but you need to make sure that you understand the depth to 
+			Solid Requirements - This might seem like a picky
+			process, but you need to make sure that you understand the depth to
 			everything the customer is asking for. Ask lots of questions.</li>
 			<li>
-			Sign off - This is a powerful tool for not letting 
+			Sign off - This is a powerful tool for not letting
 			scope creep get too far</li>
 			<li>
-			Change Document - If your client wishes a change, 
-			give them the opportunity to change, but make sure they know that 
+			Change Document - If your client wishes a change,
+			give them the opportunity to change, but make sure they know that
 			this is *ADDITIONAL WORK* and that they will be charged for it.</li>
 			<li>
 
-			Application Development details - Applications can 
-			be one of the most difficult to work with, because they can have 
-			many functional branches and changes can take a long time. Engage 
+			Application Development details - Applications can
+			be one of the most difficult to work with, because they can have
+			many functional branches and changes can take a long time. Engage
 			an engineer early on to develop a SOLID specification.</li>
 			<li>
-			Talk about it! If you mention it to your client at 
-			the beginning, you have identified a potential risk early on in the 
-			project. Be prepared to mitigate potential scope creep later on my 
+			Talk about it! If you mention it to your client at
+			the beginning, you have identified a potential risk early on in the
+			project. Be prepared to mitigate potential scope creep later on my
 			identifying it at the beginning.</li>
 		</ul>
 		</li>
@@ -599,8 +597,8 @@ client</b></p>
 	</li>
 	<li><span class="warning">
 
-	Miscommunication!</span> I have seen this happen on almost every 
-	project I have been involved in. Good clients or bad, you will get into a 
+	Miscommunication!</span> I have seen this happen on almost every
+	project I have been involved in. Good clients or bad, you will get into a
 	project and have the client say: "That isn't right".
  	<ul>
 		<li><b>
@@ -610,11 +608,11 @@ client</b></p>
 			Frequent follow-up with more than just a phone call.</li>
 
 			<li>
-			Walk-through ideas, wireframes, layout, graphics, 
+			Walk-through ideas, wireframes, layout, graphics,
 			content and application details with sign-off person. </li>
 			<li>
-			Make sure you talk to the decision maker (otherwise, 
-			whomever you talk to will get it wrong when telling them - 
+			Make sure you talk to the decision maker (otherwise,
+			whomever you talk to will get it wrong when telling them -
 			guaranteed!!)</li>
 			<li>
 			Clear Schedule and Scope documents</li>
@@ -629,38 +627,38 @@ client</b></p>
 </p><ul>
 	<li><span class="warning">
 	Missed Deliverables! </span>
-	Because the client is a 
-	team member, they will undoubtedly have tasks to complete during the 
+	Because the client is a
+	team member, they will undoubtedly have tasks to complete during the
 	project. </li>
 
 	<li>
-	Occasionally, or often, they may miss these deadlines, 
+	Occasionally, or often, they may miss these deadlines,
 	which can impinge on the project, or stop it altogether!
  	<ul>
 		<li><b>
 		Strategies</b>
   		<ul>
 			<li>
-			Get them to agree to a schedule BEFORE the project 
+			Get them to agree to a schedule BEFORE the project
 			starts!</li>
 
 			<li>
-			Build in some Flex-Time: set a deliverable date of 
+			Build in some Flex-Time: set a deliverable date of
 			October 1st, but you don't *need* the content until October 5th.</li>
 			<li>
-			Pleasant reminders: When creating the schedule, go 
-			back to your office and build a schedule of reminders that fall 1 - 
-			3 days before the deliverable. Send out a 'Standard Project Update' 
-			with details of what has been done, what is happening now, and what 
+			Pleasant reminders: When creating the schedule, go
+			back to your office and build a schedule of reminders that fall 1 -
+			3 days before the deliverable. Send out a 'Standard Project Update'
+			with details of what has been done, what is happening now, and what
 			is required in short order.</li>
 			<li>
-			Overdue reminders: These are less friendly, and more 
+			Overdue reminders: These are less friendly, and more
 			direct. A task is overdue, please attend to this.</li>
 			<li>
 
-			Very overdue: Phone the client and let them know 
-			that you have a dependency on the task. If they cannot get it done, 
-			let them know that the schedule will need to be altered to reflect 
+			Very overdue: Phone the client and let them know
+			that you have a dependency on the task. If they cannot get it done,
+			let them know that the schedule will need to be altered to reflect
 			the lost time.</li>
 		</ul>
 		</li>
@@ -675,22 +673,22 @@ client</b></p>
 <h4>Gathering Information</h4>
 <ul>
 	<li>
-	Work with your client to gather as much information as 
+	Work with your client to gather as much information as
 	you can about their company/product/promotion</li>
 	<li>
 	Get all materials that they have</li>
 	<li>
-	Ask questions, get people engaged in discussing the 
+	Ask questions, get people engaged in discussing the
 	latent info
  	<ul>
 
 		<li>
-		You might find that people differ on what the 
+		You might find that people differ on what the
 		product/promotion actually is!</li>
 	</ul>
 	</li>
 	<li>
-	If a site already exists, look at current site and 
+	If a site already exists, look at current site and
 	learn as much as you can about what is there now</li>
 	<li><b><i>
 	Become an expert in your clients business!</i></b></li>
@@ -703,17 +701,17 @@ client</b></p>
 
 <ul>
 	<li>
-	Get the client to fill out the questionnaire as much 
+	Get the client to fill out the questionnaire as much
 	as they can.</li>
 	<li>
-	Do NOT do it with them! They might want your help, 
+	Do NOT do it with them! They might want your help,
 	but RESIST!</li>
 	<li>
 
-	Give them a few days and come back to see how far it 
+	Give them a few days and come back to see how far it
 	has gotten</li>
 	<li>
-	Most of the time, they only finish the 'stuff they 
+	Most of the time, they only finish the 'stuff they
 	know'
  	<ul>
 		<li>
@@ -732,7 +730,7 @@ client</b></p>
 		<li><a href="http://www.cemalekin.com/syllabus/wp-content/uploads/2010/02/WebClientInterview.pdf">MOTI client interview form</a></li>
 		<li><a href="http://www.evotech.net/blog/2009/04/22-web-client-ued-questions/">Estelle Weyl's</a></li>
 		<li>Find one that is sufficiently detailed and thorough, and consider modifing and/or supplementing it with questions of your own</li>
-		
+
 	</ul>
 
 
@@ -740,14 +738,14 @@ client</b></p>
 
 
 <p>
-<b>Understanding Your 
+<b>Understanding Your
 Audience</b></p>
 <ul>
 	<li>
 
 	Who is your client targeting?</li>
 	<li>
-	What ages are they? Gender? Ethnic group? Financial 
+	What ages are they? Gender? Ethnic group? Financial
 	Status? Technical Savvy?</li>
 	<li>
 	More than one target group? Identify all of them</li>
@@ -762,11 +760,11 @@ Audience</b></p>
 <b>Setting Goals</b></p>
 <ul>
 	<li>
-	Setting goals for the project sets up your initial 
+	Setting goals for the project sets up your initial
 	Success Criteria</li>
 	<li>
 
-	Number one question is: Why build a website? / Why 
+	Number one question is: Why build a website? / Why
 	redesign a website?
  	<ul>
 		<li>
@@ -788,8 +786,8 @@ Audience</b></p>
 	</ul>
 	</li>
 	<li>
-	Engage the customer in these discussions. Make sure 
-	they have an understanding of what YOU see as the goals, and that you 
+	Engage the customer in these discussions. Make sure
+	they have an understanding of what YOU see as the goals, and that you
 	understand what THEY see as the goals. </li>
 	<li>
 	Work to join those together!</li>
@@ -797,12 +795,12 @@ Audience</b></p>
 </ul>
 
 <h3>
-Tool: 
+Tool:
 Creative Brief</h3>
 <ul>
 	<li>
-	A creative brief is simply a restating of the goals of 
-	the project, and a proposal for what you believe will be required to 
+	A creative brief is simply a restating of the goals of
+	the project, and a proposal for what you believe will be required to
 	complete the project.
  	<ul>
 		<li>
@@ -823,14 +821,14 @@ Creative Brief</h3>
 
 <ul>
 	<li>
-	Once the client has had a chance to review the Brief, 
+	Once the client has had a chance to review the Brief,
 	they may want to make some changes</li>
 	<li>
-	Keep the brief as it is, and add an attachment that is 
+	Keep the brief as it is, and add an attachment that is
 	the ADDENDUM to the Creative Brief.</li>
 
 	<li>
-	Once everyone is happy with the corrected brief, then 
+	Once everyone is happy with the corrected brief, then
 	GET IT SIGNED!</li>
 </ul>
 
@@ -841,13 +839,13 @@ Creative Brief</h3>
 	Who is the team? </li>
 	<li>
 
-	Are you assembling the team? Are you part of a larger 
+	Are you assembling the team? Are you part of a larger
 	team? Are you flying solo?</li>
 	<li>
-	Who does the client have on their team? What 
+	Who does the client have on their team? What
 	resources are they offering?</li>
 	<li>
-	Establish who is doing what, and a list of tasks/roles 
+	Establish who is doing what, and a list of tasks/roles
 	so that when unexpected events come up, there is no finger pointing.</li>
 	<li>
 	Will there be technical requirements?</li>
@@ -860,7 +858,7 @@ Creative Brief</h3>
 <b>Schedule</b></p>
 <ul>
 	<li>
-	Now that you know WHO is going to do WHAT, you need to 
+	Now that you know WHO is going to do WHAT, you need to
 	determine WHEN are they going to do it.</li>
 	<li>
 
@@ -868,7 +866,7 @@ Creative Brief</h3>
 	<li>
 	Are there critical milestone dates?</li>
 	<li>
-	Will decision makers be available? Vacation? 
+	Will decision makers be available? Vacation?
 	Retiring?</li>
 	<li>
 	What are the availability levels of your team members?</li>
@@ -878,18 +876,18 @@ Creative Brief</h3>
 	<li>
 	What are the dependencies of the project?</li>
 	<li>
-	Construct a list of tasks that will likely have to be 
+	Construct a list of tasks that will likely have to be
 	done in order to complete this site. It can be rough at first.</li>
 	<li>
 
-	Next, mark each task with a likely person who will be 
+	Next, mark each task with a likely person who will be
 	responsible.</li>
 	<li>
-	Now try and put all the tasks in chronological order, 
-	making sure that the same person cannot be working on the two tasks 
+	Now try and put all the tasks in chronological order,
+	making sure that the same person cannot be working on the two tasks
 	simultaneously.</li>
 	<li><b>
-	This is expert project management</b> 
+	This is expert project management</b>
 	- Not covered in this course, but it can be a huge challenge!!</li>
 </ul>
 
@@ -897,20 +895,20 @@ Creative Brief</h3>
 <b>Budget</b></p>
 <ul>
 	<li>
-	This is universally the most contentious part of a 
+	This is universally the most contentious part of a
 	project.</li>
 	<li>
-	Make sure that you have defined who the project 
+	Make sure that you have defined who the project
 	members are, their role, and their cost (by task or by hour).</li>
 	<li>
-	Now, with your total hours, and roles defined, just 
+	Now, with your total hours, and roles defined, just
 	sum the total amount and use that as a guideline.</li>
 
 	<li>
-	Remember to add extra charges!! Stock Photo, Domain 
+	Remember to add extra charges!! Stock Photo, Domain
 	Registration, Hosting Fees (if applicable) software (if needed), etc.</li>
 	<li>
-	Include a breakdown of tasks, who is responsible, how 
+	Include a breakdown of tasks, who is responsible, how
 	many hours it will take and the total for each phase.</li>
 </ul>
 
@@ -921,68 +919,68 @@ Creative Brief</h3>
 
 	Next comes the Project plan</li>
 	<li>
-	You might spend a lot of time working on this, 
-	particularly if you are assembling a team or if the project is very large or 
+	You might spend a lot of time working on this,
+	particularly if you are assembling a team or if the project is very large or
 	lengthy</li>
 	<li>
 	Components of a Project Plan:
  	<ul>
 		<li><b>
-		Overview</b>: The executive summary. What will be 
+		Overview</b>: The executive summary. What will be
 		accomplished in broad strokes.</li>
 
 		<li><b>
-		Schedule</b>: This might be somewhat rough to begin with, 
-		but this will come out of conversations with the client and with the 
+		Schedule</b>: This might be somewhat rough to begin with,
+		but this will come out of conversations with the client and with the
 		team. </li>
 		<li>
-		Schedule may also have some critical dates (like 
+		Schedule may also have some critical dates (like
 		promotional campaign start, etc) that need to be expressly identified.</li>
 		<li>
-		Talk to your client! Make sure that the dates are 
+		Talk to your client! Make sure that the dates are
 		achieveable by YOU AND BY THEM!</li>
 		<li><b>
 
-		Budget</b>: Another area that may change during the review of 
+		Budget</b>: Another area that may change during the review of
 		the project. Be prepared to defend the budget</li>
 		<li><b>
 		Audience: </b>
-		Placing this in the project plan is crucial, 
-		as this will become the main reference document throughout the project. 
+		Placing this in the project plan is crucial,
+		as this will become the main reference document throughout the project.
 		Make sure that you include descriptions of the Personas</li>
 		<li><b>
 		Testing Plan: </b>
 
-		Clearly identify 
+		Clearly identify
 		what/how testing will occur, both on users and the site itself.</li>
 		<li><b>
 		Details and Assumptions: </b>
-		Often overlooked, it 
-		is important to include as a clarifier. This is where all of the 
-		assumptions by the developer are outlined. 
+		Often overlooked, it
+		is important to include as a clarifier. This is where all of the
+		assumptions by the developer are outlined.
 		<ul>
 			<li>
 			Examples:</li>
 			<li>
 
-			The development of (site A) is limited to HTML 
+			The development of (site A) is limited to HTML
 			coding of X sections and Y pages (if known)</li>
 			<li>
-			The budget is only an estimate based on information 
-			given as of (date). Variance may occur with changes in the project 
+			The budget is only an estimate based on information
+			given as of (date). Variance may occur with changes in the project
 			plan. See Change Request Form in appendix B</li>
 			<li>
-			Overdue task delivery may be subject to extra 
+			Overdue task delivery may be subject to extra
 			charges outlined in appendix A</li>
 			<li>
-			Stock and Photo/Illustration illustration fees are 
-			the responsibility of the client. Approval for each item will be 
+			Stock and Photo/Illustration illustration fees are
+			the responsibility of the client. Approval for each item will be
 			requested from the client before purchase.</li>
 
 		</ul>
 		</li>
 		<li><b>
-		SIGNATURE LINE</b>: 
+		SIGNATURE LINE</b>:
 		This is MOST important! Make sure they sign this.</li>
 	</ul>
 	</li>
@@ -993,19 +991,19 @@ Creative Brief</h3>
 <b>Kick it off!</b></p>
 <ul>
 	<li>
-	Once you have the project plan signed off, have a 
+	Once you have the project plan signed off, have a
 	kick-off meeting/party</li>
 	<li>
 	Include *everyone* who will be part of the project</li>
 	<li>
-	Get them all together and let them know that the 
+	Get them all together and let them know that the
 	project has been approved, and is underway</li>
 
 	<li>
-	Ensure everyone knows they are working on a COMMON 
+	Ensure everyone knows they are working on a COMMON
 	GOAL</li>
 	<li>
-	Give them a HORIZON: Launch Date, Milestones and/or 
+	Give them a HORIZON: Launch Date, Milestones and/or
 	Success Criteria</li>
 </ul>
 </div>
@@ -1032,16 +1030,16 @@ Creative Brief</h3>
 	<li>
 	Is it web usable? Did you need to hire a writer?</li>
 	<li>
-	Get a sense of how the information is grouped 
-	together, and possibly do a pile-sorting exercise to se if it really is the 
+	Get a sense of how the information is grouped
+	together, and possibly do a pile-sorting exercise to se if it really is the
 	most optimal way.</li>
 
 	<li>
-	If content is being provided by the client, create a 
-	schedule for content delivery, once you have outlined what needs to go on 
+	If content is being provided by the client, create a
+	schedule for content delivery, once you have outlined what needs to go on
 	the site. </li>
 	<li>
-	Create an outline of content, so that client is forced 
+	Create an outline of content, so that client is forced
 	to categorize what is there currently. Help them with this.</li>
 	<li>
 	Make sure the client KNOWS WHEN CONTENT IS DUE!</li>
@@ -1051,18 +1049,18 @@ Creative Brief</h3>
 <b>Sitemapping</b></p>
 <ul>
 	<li>
-	Once you have the Content Outline, a navigation 
+	Once you have the Content Outline, a navigation
 	structure will usually emerge.</li>
 	<li>
-	Main categories start to arise as natural navigation 
+	Main categories start to arise as natural navigation
 	points.</li>
 	<li>
-	This is a simple outline document that acts as a 
+	This is a simple outline document that acts as a
 	suggestion for further development. This is NOT the navigation</li>
 
 	<li>
-	With this in mind, does the initial navigation look 
-	correct? Is it simple to understand? Does it need a rework? Should the 
+	With this in mind, does the initial navigation look
+	correct? Is it simple to understand? Does it need a rework? Should the
 	categories be re-assigned.</li>
 </ul>
 
@@ -1070,12 +1068,12 @@ Creative Brief</h3>
 <b>Page View</b></p>
 <ul>
 	<li>
-	Once you have begun refining the content into an 
-	outline that can be used as a navigational aid, you can begin to look at 
+	Once you have begun refining the content into an
+	outline that can be used as a navigational aid, you can begin to look at
 	Page level development.</li>
 	<li>
 
-	This generally comes from the information that is one 
+	This generally comes from the information that is one
 	or more levels deeper in the Content Categorization</li>
 </ul>
 
@@ -1083,21 +1081,21 @@ Creative Brief</h3>
 <b>Wireframing</b></p>
 <ul>
 	<li>
-	One of the tools used for looking at a page is called 
+	One of the tools used for looking at a page is called
 	Wireframing</li>
 	<li>
-	This allows you to outline what KIND of information 
+	This allows you to outline what KIND of information
 	will go on a page.</li>
 
 	<li>
-	Where navigation will fall, but not necessarily what 
+	Where navigation will fall, but not necessarily what
 	the navigation will be.</li>
 	<li>
-	From multiple wireframes (one for each TYPE of page) 
+	From multiple wireframes (one for each TYPE of page)
 	you can start to derive FLOW</li>
 	<li>
-	TIP: Don't let clients see this early on. Inevitably, 
-	they will think this is a 'design' and get scared that the site is going to 
+	TIP: Don't let clients see this early on. Inevitably,
+	they will think this is a 'design' and get scared that the site is going to
 	look like a bunch of dark lines on a white background!!</li>
 	<li>Examine some <a href="http://blog.mockupbuilder.com/10-fresh-beautiful-examples-of-website-wireframes/">website wireframes</a> to see how its done</li>
 </ul>
@@ -1106,23 +1104,23 @@ Creative Brief</h3>
 <b>Labeling the site</b></p>
 <ul>
 	<li>
-	Labels are one of the key tenets of Information 
+	Labels are one of the key tenets of Information
 	Architecture. </li>
 	<li>
-	Making sure that the site is labeled correctly is key 
+	Making sure that the site is labeled correctly is key
 	to usability, searching and design</li>
 	<li>
-	Labels must be informative and give the user subtle 
+	Labels must be informative and give the user subtle
 	instructions with few words</li>
 
 	<li>
-	Remember your audience! Labels can be sensitive to 
-	age, gender, ethnic background and more. Pull out your Personas to 
+	Remember your audience! Labels can be sensitive to
+	age, gender, ethnic background and more. Pull out your Personas to
 	help you build these.</li>
 	<li>
-	TONE is also something that can be developed here. 
-	The site will have it's own VOICE that communicates with the user. How the 
-	words flow together, how expressive or passive the site is. VERY IMPORTANT 
+	TONE is also something that can be developed here.
+	The site will have it's own VOICE that communicates with the user. How the
+	words flow together, how expressive or passive the site is. VERY IMPORTANT
 	for some sites.
  	<ul>
 		<li>
@@ -1150,7 +1148,7 @@ Creative Brief</h3>
 
 	Will the user be required to follow a specific path?</li>
 	<li>
-	Has it been determined? Can they move from the site 
+	Has it been determined? Can they move from the site
 	to the path and back with ease?
  	<ul>
 		<li>
@@ -1168,7 +1166,7 @@ Creative Brief</h3>
 	Another use for those Personas!</li>
 
 	<li>
-	You can also extract User Scenarios from the profiles 
+	You can also extract User Scenarios from the profiles
 	and use them as an additional document if you are building applications.</li>
 	<li>
 	Very useful for Interaction Designers.</li>
@@ -1179,17 +1177,17 @@ Creative Brief</h3>
 <h2>Phase 3: Design</h2>
 <div class="contblock">
 <p>
-<b>Starting the Creative 
+<b>Starting the Creative
 Process</b></p>
 
 <ul>
 	<li>
 	For most people, this is the *fun* phase</li>
 	<li>
-	However, this is also the phase that has the most 
+	However, this is also the phase that has the most
 	potential for client re-evaluation. </li>
 	<li>
-	Work to keep them on track! All your documentation 
+	Work to keep them on track! All your documentation
 	will come in handy here.</li>
 	<li>
 
@@ -1197,7 +1195,7 @@ Process</b></p>
 	<li><b>
 	First thing to do</b>: Review the site goals with the client</li>
 	<li>
-	Use it as a re-confirmation that you are on the right 
+	Use it as a re-confirmation that you are on the right
 	track</li>
 </ul>
 
@@ -1206,8 +1204,8 @@ Process</b></p>
 <b>Brainstorming</b></p>
 <ul>
 	<li>
-	This is where you take all of the information you have 
-	gathered and amalgamate it into what will eventually become the final design 
+	This is where you take all of the information you have
+	gathered and amalgamate it into what will eventually become the final design
 	of the site.</li>
 	<li>
 	Visual Design begins with experiments using:
@@ -1244,25 +1242,25 @@ Process</b></p>
 	<li>
 	Re-read the Questionnaire</li>
 	<li>
-	Use the Content Outline, Navigation, Page View 
+	Use the Content Outline, Navigation, Page View
 	documents</li>
 	<li>
-	Determine the consistencies, labels, navigation 
+	Determine the consistencies, labels, navigation
 	schemes</li>
 </ul>
 
 <p>
-<b>Presenting designs to the 
+<b>Presenting designs to the
 client</b></p>
 <ul>
 	<li><b>
 	FIRST VISIT</b></li>
 	<li>
-	This is very tricky. Be AWARE that you can get caught 
+	This is very tricky. Be AWARE that you can get caught
 	up in some subjective commentary!</li>
 
 	<li>
-	BEFORE you present ANYTHING to the client, Set 
+	BEFORE you present ANYTHING to the client, Set
 	Expectations
  	<ul>
 		<li>
@@ -1275,26 +1273,26 @@ client</b></p>
 		<li>
 		These are just IDEAS</li>
 		<li>
-		Colours and fonts are not set in stone (unless there 
+		Colours and fonts are not set in stone (unless there
 		is a corporate requirement)</li>
 	</ul>
 	</li>
 
 	<li>
-	Showing example templates MUST BE DONE IN THEIR 
+	Showing example templates MUST BE DONE IN THEIR
 	PRESENCE!!!</li>
 	<li>
-	Also, let them know that this is just a basis for 
+	Also, let them know that this is just a basis for
 	discussion, and a new design will be presented after this one is reviewed.</li>
 	<li>
-	Limit minutiae suggestions that bog down the 
+	Limit minutiae suggestions that bog down the
 	presentations</li>
 	<li>
 
 	Try to keep it high level:
  	<ul>
 		<li>
-		Does it answer the site goals (to look 
+		Does it answer the site goals (to look
 		professional/lively/exciting), etc?</li>
 		<li>
 		Does the navigation make sense?</li>
@@ -1304,10 +1302,10 @@ client</b></p>
 	</ul>
 	</li>
 	<li>
-	Take copious notes (consider bringing a note taker 
+	Take copious notes (consider bringing a note taker
 	with you)</li>
 	<li>
-	DO NOT try to correct the user on design issues 
+	DO NOT try to correct the user on design issues
 	alone. Just let them have their say and go back to your studio with notes</li>
 </ul>
 
@@ -1316,19 +1314,19 @@ client</b></p>
 	<li><b>
 	RETURN VISIT</b></li>
 	<li>
-	Make sure you answer the specific questions you had in 
+	Make sure you answer the specific questions you had in
 	the previous meeting</li>
 	<li>
-	Make sure you point out specific changes that were 
+	Make sure you point out specific changes that were
 	made based on specific suggestions. This is EXTREMELY IMPORTANT!
  	<ul>
 		<li>
 
-		This reminds users why things have changed (ie: it 
+		This reminds users why things have changed (ie: it
 		was their suggestion)</li>
 		<li>
-		If things were changed against the users wishes 
-		(because they asked for something ridiculous or out of scope), make sure 
+		If things were changed against the users wishes
+		(because they asked for something ridiculous or out of scope), make sure
 		you have a reason PREPARED BEFOREHAND!</li>
 	</ul>
 	</li>
@@ -1342,13 +1340,13 @@ client</b></p>
 	<li><b>
 	FINAL VISIT</b></li>
 	<li>
-	Other than little 'tweaks', make sure you get WRITTEN 
+	Other than little 'tweaks', make sure you get WRITTEN
 	APPROVAL</li>
 	<li>
 	Bring colour printouts that the client can SIGN.</li>
 
 	<li>
-	Allow them to circle areas they want changed and make 
+	Allow them to circle areas they want changed and make
 	sure they INITIAL the change.</li>
 </ul>
 
@@ -1362,38 +1360,38 @@ client</b></p>
 	Here is what I like to do:
  	<ul>
 		<li>
-		With a visual designer, create the main templates for 
+		With a visual designer, create the main templates for
 		the site (however many there are)</li>
 		<li>
-		MAKE SURE you have a coder on-hand that can guide the 
+		MAKE SURE you have a coder on-hand that can guide the
 		process and say whether all design elements are possible!</li>
 		<li>
-		Home Page / Content Page / Application Page / Search 
+		Home Page / Content Page / Application Page / Search
 		and Results Pages / etc</li>
 
 		<li>
-		Create a near-final version with navigation, images, 
+		Create a near-final version with navigation, images,
 		media and everything EXCEPT copy.</li>
 		<li>
-		DO NOT ADD COPY YET! If you are doing this in, say, 
+		DO NOT ADD COPY YET! If you are doing this in, say,
 		photoshop, editing content isn't easy and can be arduous.</li>
 		<li>
-		Just use Lorem ipsum dolor text. Users might object, 
-		but explain that this removes them from trying to READ everything. 
+		Just use Lorem ipsum dolor text. Users might object,
+		but explain that this removes them from trying to READ everything.
 		Allows them to focus on the SITE.</li>
 		<li>
 
-		Create image maps for navigation. Allow users to 
-		click-through to test out flow, user paths, different looks, search 
+		Create image maps for navigation. Allow users to
+		click-through to test out flow, user paths, different looks, search
 		results and more.</li>
 		<li>
 		Send link to user to have them test it.</li>
 		<li>
-		Go to see client after they have had a chance to 
+		Go to see client after they have had a chance to
 		"test" it.</li>
 		<li>
 
-		Gather feedback, take them through a "professional" 
+		Gather feedback, take them through a "professional"
 		walkthrough</li>
 	</ul>
 	</li>
@@ -1404,14 +1402,14 @@ client</b></p>
 <ul>
 	<li>
 
-	Using the feedback gathered from the client, you can 
+	Using the feedback gathered from the client, you can
 	now engage your designer to create the final templates for the site.</li>
 	<li>
-	Make sure that you have consulted your coders to make 
+	Make sure that you have consulted your coders to make
 	sure that the templates are "doable" early on!</li>
 	<li>
-	These templates need to be finalized and locked down. 
-	They should be changed VERY LITTLE after this point, as they will be used as 
+	These templates need to be finalized and locked down.
+	They should be changed VERY LITTLE after this point, as they will be used as
 	reference materials for post-launch maintenance.</li>
 </ul>
 
@@ -1419,7 +1417,7 @@ client</b></p>
 	<li><b>
 	Style Guide and Standards</b></li>
 	<li>
-	Create a STYLE GUIDE for your team, the client team 
+	Create a STYLE GUIDE for your team, the client team
 	and the Maintenance team
  	<ul>
 		<li>
@@ -1429,10 +1427,10 @@ client</b></p>
 			<li>
 			Filename standards</li>
 			<li>
-			directory standards (are things page or directory 
+			directory standards (are things page or directory
 			based)</li>
 			<li>
-			Image standards (jpg, png, gif transparencies 
+			Image standards (jpg, png, gif transparencies
 			compression max size)</li>
 			<li>
 
@@ -1445,10 +1443,10 @@ client</b></p>
 	</li>
 	<li>
 
-	Establishing Standards for XHTML, CSS, mySQL, coding 
+	Establishing Standards for XHTML, CSS, mySQL, coding
 	style, notations, META information, </li>
 	<li>
-	Crucial for Designers, developers, clients and project 
+	Crucial for Designers, developers, clients and project
 	people.</li>
 </ul>
 </div>
@@ -1461,10 +1459,10 @@ client</b></p>
 	This is the GET IT DONE phase</li>
 
 	<li>
-	Take everything you have planned and put it all 
+	Take everything you have planned and put it all
 	together.</li>
 	<li>
-	This is where the coders, application developers, 
+	This is where the coders, application developers,
 	designers and client all work together.</li>
 </ul>
 
@@ -1475,11 +1473,11 @@ client</b></p>
 	<li>
 	Review Goals AGAIN</li>
 	<li>
-	Review SCOPE (Details and Assumptions) - Are you on 
+	Review SCOPE (Details and Assumptions) - Are you on
 	track? Has there been Scope Creep?</li>
 	<li>
-	Before heavy coding begins, make sure that coders 
-	understand the Audience capabilities and technical restraints (most users 
+	Before heavy coding begins, make sure that coders
+	understand the Audience capabilities and technical restraints (most users
 	are T1 or 56K modem? Handheld?)</li>
 </ul>
 
@@ -1487,17 +1485,17 @@ client</b></p>
 <b>Tracking Progress</b></p>
 <ul>
 	<li>
-	Have a system for tracking the progress of the 
+	Have a system for tracking the progress of the
 	project.</li>
 	<li>
-	Break down all the tasks into individual line items 
+	Break down all the tasks into individual line items
 	(use the schedule or Task List as a guide)</li>
 	<li>
-	Make sure every task is assigned with a person and due 
+	Make sure every task is assigned with a person and due
 	date.</li>
 
 	<li>
-	Request updates from all team members on a regular 
+	Request updates from all team members on a regular
 	basis
  	<ul>
 		<li>
@@ -1508,19 +1506,19 @@ client</b></p>
 
 	</li>
 	<li>
-	If items are slipping, find out why and re-allocate 
+	If items are slipping, find out why and re-allocate
 	resources based on requirements to complete a task</li>
 	<li>
-	If working by the hour, be VERY CONSCIOUS of 'just one 
+	If working by the hour, be VERY CONSCIOUS of 'just one
 	little thing' requests from client.</li>
 	<li>
-	Build in a contingency for small changes, but remind 
+	Build in a contingency for small changes, but remind
 	client that larger changes will have to use the Change Request Document.
  	<ul>
 
 		<li>
-		If there is a problem, go back to all of the 
-		documetation that has client sign-off. Make sure they KNOW that they 
+		If there is a problem, go back to all of the
+		documetation that has client sign-off. Make sure they KNOW that they
 		signed off on X and now they want either X+1 or Y.</li>
 	</ul>
 	</li>
@@ -1533,26 +1531,26 @@ client</b></p>
 
 	Set the file structure for the final site</li>
 	<li>
-	This should be based on the wireframes and 
+	This should be based on the wireframes and
 	architecture that was developed in Phase 2</li>
 	<li>
 	Make sure this is a Scaleable design
  	<ul>
 		<li>
-		Make sure that if the site grows (more 
+		Make sure that if the site grows (more
 		products/sections, etc) the site can grow with it</li>
 
 	</ul>
 	</li>
 	<li>
-	Coding pages based on the templates established in 
+	Coding pages based on the templates established in
 	Phase 3</li>
 	<li>
-	CONSTANT REVIEW - Make sure that everything is 
+	CONSTANT REVIEW - Make sure that everything is
 	progressing normally and that there are no 'surprises' during production
  	<ul>
 		<li>
-		Nothing worse than a coder who mis-interprets a 
+		Nothing worse than a coder who mis-interprets a
 		design cog into something that throws the site out of whack</li>
 
 		<li>
@@ -1563,12 +1561,12 @@ client</b></p>
 	Backend integration
  	<ul>
 		<li>
-		If actual visual integration can't come at this 
+		If actual visual integration can't come at this
 		point, view the information flow</li>
 
 		<li>
-		If information flow is limited, then allow the 
-		application developers to create a mini-site that lets you see how 
+		If information flow is limited, then allow the
+		application developers to create a mini-site that lets you see how
 		things are progressing</li>
 		<li>
 		Lend coding resources to this mini-project</li>
@@ -1585,11 +1583,11 @@ client</b></p>
 	<li>
 	Perhaps the MOST overlooked part of the project</li>
 	<li>
-	This need to be organized and planned right from the 
+	This need to be organized and planned right from the
 	beginning</li>
 
 	<li>
-	Some clients will object, saying that 'You shouldn't 
+	Some clients will object, saying that 'You shouldn't
 	have to test it - it should work fine the first time'.
  	<ul>
 		<li class="warning">
@@ -1597,11 +1595,11 @@ client</b></p>
 	</ul>
 	</li>
 	<li>
-	Start from the very beginning and review the goals, 
+	Start from the very beginning and review the goals,
 	the content outline, applications specification everything.</li>
 
 	<li>
-	If there are user paths, these are an EXCELLENT place 
+	If there are user paths, these are an EXCELLENT place
 	to start.</li>
 </ul>
 
@@ -1665,7 +1663,7 @@ Conducting a final check</h3>
 <p>
 Handing off the site to the client.  This section is generally straightforward.  The site has been tested and should be ready for prime time.</p>
 
-<h3>Tasks to be completed at this phase:</h3> 
+<h3>Tasks to be completed at this phase:</h3>
 
 <ul>
 <li>Creating the Handoff Packet</li>
@@ -1704,38 +1702,38 @@ Going Live</h3>
 <h2>Keys to Success</h2>
 <div class="contblock">
 <h3>
-Spend lots of time 
+Spend lots of time
 discovering, defining, planning, clarifying.</h3>
 <p>
-It will help when it comes to 
+It will help when it comes to
 Production.</p>
 
 <h3>
 One Decision Maker</h3>
 <p>
-Make sure you get ONE 
-decision maker if at all possible. If you have a team or committee, get them to 
+Make sure you get ONE
+decision maker if at all possible. If you have a team or committee, get them to
 nominate a single contact person</p>
 
 <h3>
 Get it in writing!</h3>
 
 <p>
-Make sure you have your 
-primary decision maker physically signs off on each deliverable when they are 
+Make sure you have your
+primary decision maker physically signs off on each deliverable when they are
 satisfied.</p>
 
 <h3>
 Track Your Progress</h3>
 <p>
-Use a calendar, project 
+Use a calendar, project
 management software, task list, whatever, but track your progress!</p>
 
 <h3>
 Content is King!</h3>
 <p>
-Fancy layouts and cutting 
-edge design matter for only the smallest percentage of sites. The rest require 
+Fancy layouts and cutting
+edge design matter for only the smallest percentage of sites. The rest require
 compelling content. Don't let your client drive you to the bleeding edge.</p>
 
 </div>
@@ -1790,7 +1788,7 @@ compelling content. Don't let your client drive you to the bleeding edge.</p>
 		</div>
 	</div>
 	<div id="rightcont">
-		
+
 <h2 class="navhead">contents</h2>
 
 
@@ -1807,15 +1805,15 @@ compelling content. Don't let your client drive you to the bleeding edge.</p>
 	<span class="none"> | </span>
 
 
-	<!-- 
+	<!--
 ****************************************************************
-<a href="/1950/lectures/three"> </a>	
+<a href="/1950/lectures/three"> </a>
 
 <span class="greyout">
 ****************************************************************
 	-->
 	<h2 class="navhead">lectures</h2>
-	
+
 <a href="http://bcitcomp.ca/1950/lectures/">01 | tools &amp; standards</a>	<span class="none"> | </span>
 
 <a href="http://bcitcomp.ca/1950/lectures/two">02 | html5</a>	<span class="none"> | </span>
@@ -1825,13 +1823,13 @@ compelling content. Don't let your client drive you to the bleeding edge.</p>
 <a href="http://bcitcomp.ca/1950/lectures/three">03 | css techniques</a>	<span class="none"> | </span>
 
 
-<a href="http://bcitcomp.ca/1950/lectures/four">04 | css layouts</a>	
+<a href="http://bcitcomp.ca/1950/lectures/four">04 | css layouts</a>
 	<span class="none"> | </span>
 
-<a href="http://bcitcomp.ca/1950/lectures/five">05 | responsive css</a>	
+<a href="http://bcitcomp.ca/1950/lectures/five">05 | responsive css</a>
 	<span class="none"> | </span>
 
-<a href="http://bcitcomp.ca/1950/lectures/six">06 | css3</a>	
+<a href="http://bcitcomp.ca/1950/lectures/six">06 | css3</a>
 	<span class="none"> | </span>
 
 <a href="http://bcitcomp.ca/1950/lectures/seven">07 | javascript frameworks</a>	<span class="none"> | </span>
@@ -1846,13 +1844,13 @@ compelling content. Don't let your client drive you to the bleeding edge.</p>
 <a href="http://bcitcomp.ca/1950/lectures/eleven">11 | project work</a>	<span class="none"> | </span>
 
 	<h2 class="navhead">contact</h2>
-	
+
 	<a href="mailto:jeffrey_parker@bcit.ca">jeff parker</a>
 	<span class="none"> | </span>
 
 
 	<h2 class="navhead">associated</h2>
-	
+
 	<a href="http://bcitcomp.ca/students">students on bcitcomp.ca</a>
 	<span class="none"> | </span>
 
@@ -1861,7 +1859,7 @@ compelling content. Don't let your client drive you to the bleeding edge.</p>
 
 	<a href="http://www.bcit.ca/">bcit</a>
 	<span class="none"> | </span>
-	
+
 	<a href="http://www.bcit.ca/cas/computing/">bcit: computing</a>
 	<span class="none"> | </span>
 

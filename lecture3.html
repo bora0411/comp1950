@@ -1,14 +1,12 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<!-- saved from url=(0039)http://bcitcomp.ca/1950/lectures/three/ -->
-<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
 	<title>comp 1950 | lecture three: css techniques</title>
-	
-	<link rel="stylesheet" type="text/css" href="./comp 1950 _ lecture three_ css techniques_files/comp1.css" media="screen">
-	<link rel="alternate stylesheet" href="./comp 1950 _ lecture three_ css techniques_files/overhead.css" type="text/css" media="screen" title="Overhead">
-	<link rel="stylesheet" type="text/css" href="./comp 1950 _ lecture three_ css techniques_files/print.css" media="print">
-
+	<link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
+	<!--#include file="header.html" -->
 
 <div id="banner">
 	<a name="top"></a>
@@ -23,7 +21,7 @@
 		<h1>lecture three: CSS techniques</h1>
 		<h2>Agenda</h2>
 		<div class="contblock">
-			<ul>	
+			<ul>
 				<li>stylesheet management</li>
 				<li>advanced selectors</li>
 				<li>rule specificity</li>
@@ -36,10 +34,10 @@
 <div class="contblock">
 <h3>Linking your CSS</h3>
 <p>When linking to external style sheets, there are a number of things to know.  A standard LINK element:</p>
-<pre><code>&lt;link	rel="stylesheet" 
-	type="text/css" 
-	href="http://www.mysite.com/css/styles.css" 
-	title="Main Style" 
+<pre><code>&lt;link	rel="stylesheet"
+	type="text/css"
+	href="http://www.mysite.com/css/styles.css"
+	title="Main Style"
 	media="screen" /&gt;</code></pre>
 
 <p>This features a number of things to keep in mind:
@@ -61,7 +59,7 @@
 	<li>Almost all browsers use the <code>print</code> sheet to render text and elements for when the user selects a page to print</li>
 	<li>This can be extremely valuable for when you have a lot of page information that you might not want to have show up on a printout (ie: navigation)</li>
 	<li><a href="http://bcitcomp.ca/1950/downloads/css_per_media.zip">Download and examine css media example files</a>, test them after publishing online. Examine the code to see how they work.</li>
-<!--	<li>NOTE: you can simulate a variety of clients using Google's Chrome web browser: 
+<!--	<li>NOTE: you can simulate a variety of clients using Google's Chrome web browser:
 		<ul>
 			<li>Open the document in Chrome</li>
 			<li>Choose Tools > Developer Tools</li>
@@ -116,13 +114,13 @@
 	<p>Embedding the <code>@import</code> works well when dealing with older browsers, as they don't read the command. Simply reference a stylesheet that imports another sheet, so you protect yourself from older browsers. Should also be used in conjunction with an older-style page (lo-fi) for older browsers.</p>
 
 	<p>In your document, use the following within the &lt;head&gt; tag:</p>
-	
+
 	<pre><code>&lt;link rel="stylesheet" type="text/css" href="/css/basic_styles.css" media="all" /&gt;</code></pre>
 	<pre><code>&lt;style type="text/css" media="all"&gt;
 	@import url("/css/rich_styles.css");
 &lt;/style&gt;</code></pre>
 	<p>This allows you to include basic styles in <code>basic_styles.css</code> (for older, or CSS-less-supported browsers) and have current styles for modern browsers in <code>rich_styles.css</code>.</p>
-	
+
 <h3>External Example:</h3>
 	<p>You can use the <code>@import</code> method to import multiple stylesheets from a basic stylesheet that you link to.  This will reduce the clutter that can sometimes occur within the <code>&lt;head&gt;</code> section.</p>
 	<p>It is also a great place to be able to manage your CSS. From your main document, create a <code>&lt;link&gt;</code> to your <code>styles.css</code> page.</p>
@@ -142,7 +140,7 @@
 	<li><a href="http://bcitcomp.ca/1950/downloads/importing_css.zip">Download the css import exercise starting files</a></li>
 	<li>Use the <code>@import</code> feature to simplify the HTML file's CSS references, so that only one <code>&lt;link&gt;</code> tag is required in the HTML <code>&lt;head&gt;</code> section.</li>
 	<li>Show your instructor when complete</li>
-  <li><a href="http://bcitcomp.ca/1950/downloads/importing_css_solution.zip">Download a sample solution</a><p></p></li> 
+  <li><a href="http://bcitcomp.ca/1950/downloads/importing_css_solution.zip">Download a sample solution</a><p></p></li>
 
 </ul>
 </div>
@@ -157,7 +155,7 @@
 	<li>This is a fairly widely supported selector: the asterisk <code>*</code></li>
 	<li>Use it to specify a global rule</li>
 	<li><code>* { color: red; }</code> will make all font color red on your page</li>
-	<li>The universal selector can be very powerful, as it can command a lot of changes to your styles, 
+	<li>The universal selector can be very powerful, as it can command a lot of changes to your styles,
 </li></ul>
 
 
@@ -229,7 +227,7 @@
 
 	<li>Show your instructor when complete</li>
 
- <li><a href="http://bcitcomp.ca/1950/downloads/css_selector_exercise_sample.zip">Download a sample solution</a></li> 
+ <li><a href="http://bcitcomp.ca/1950/downloads/css_selector_exercise_sample.zip">Download a sample solution</a></li>
 </ul>
 
 </div>
@@ -282,7 +280,7 @@
 			<li><code>font: font-size font-family;</code></li>
 			<li><code>font: font-style font-variant font-weight font-size/line-height font-family;</code></li>
 		</ul>
-	</li>	
+	</li>
 
 	<li>Several options are available for applying styles to box model coordinates on <code>borders</code>, <code>paddings</code>, and <code>margins</code>. For example:
 		<ul>
@@ -353,7 +351,7 @@
 	<li><strong>Sort by Order:</strong> Finally, sort by order specified: if two rules have the same weight, origin and specificity, the latter specified wins. Rules in imported style sheets are considered to be before any rules in the style sheet itself.</li>
 </ul>
 
-<p>All of the rules are pretty straightforward, except for Specificity, which bears some explanation.  
+<p>All of the rules are pretty straightforward, except for Specificity, which bears some explanation.
 </p>
 
 <p><strong>Specificity</strong> is a method for determining what rules are applied when a conflict between two selectors occurs.  Through a method of adding values when certain elements and selectors are present, a specificity number can be applied to any CSS rule.  The one with highest specificity wins and the associated rule is applied to the element(s) in question.</p>
@@ -485,7 +483,7 @@
 	</div>
 
 	<div id="rightcont">
-		
+
 <h2 class="navhead">contents</h2>
 
 
@@ -502,15 +500,15 @@
 	<span class="none"> | </span>
 
 
-	<!-- 
+	<!--
 ****************************************************************
-<a href="/1950/lectures/three"> </a>	
+<a href="/1950/lectures/three"> </a>
 
 <span class="greyout">
 ****************************************************************
 	-->
 	<h2 class="navhead">lectures</h2>
-	
+
 <a href="http://bcitcomp.ca/1950/lectures/">01 | tools &amp; standards</a>	<span class="none"> | </span>
 
 <a href="http://bcitcomp.ca/1950/lectures/two">02 | html5</a>	<span class="none"> | </span>
@@ -521,13 +519,13 @@
 	<span class="none"> | </span>
 
 
-<a href="http://bcitcomp.ca/1950/lectures/four">04 | css layouts</a>	
+<a href="http://bcitcomp.ca/1950/lectures/four">04 | css layouts</a>
 	<span class="none"> | </span>
 
-<a href="http://bcitcomp.ca/1950/lectures/five">05 | responsive css</a>	
+<a href="http://bcitcomp.ca/1950/lectures/five">05 | responsive css</a>
 	<span class="none"> | </span>
 
-<a href="http://bcitcomp.ca/1950/lectures/six">06 | css3</a>	
+<a href="http://bcitcomp.ca/1950/lectures/six">06 | css3</a>
 	<span class="none"> | </span>
 
 <a href="http://bcitcomp.ca/1950/lectures/seven">07 | javascript frameworks</a>	<span class="none"> | </span>
@@ -541,13 +539,13 @@
 <a href="http://bcitcomp.ca/1950/lectures/eleven">11 | project work</a>	<span class="none"> | </span>
 
 	<h2 class="navhead">contact</h2>
-	
+
 	<a href="mailto:jeffrey_parker@bcit.ca">jeff parker</a>
 	<span class="none"> | </span>
 
 
 	<h2 class="navhead">associated</h2>
-	
+
 	<a href="http://bcitcomp.ca/students">students on bcitcomp.ca</a>
 	<span class="none"> | </span>
 
@@ -556,7 +554,7 @@
 
 	<a href="http://www.bcit.ca/">bcit</a>
 	<span class="none"> | </span>
-	
+
 	<a href="http://www.bcit.ca/cas/computing/">bcit: computing</a>
 	<span class="none"> | </span>
 

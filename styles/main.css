@@ -20,7 +20,7 @@ body {
     background-color: #FFFFFF;
     color: #000000;
     margin: 0;
-    padding: 1em;
+    padding: 0;
     font: 1em Arial, Helvetica, sans-serif;
 }
 
@@ -32,10 +32,15 @@ header {
 
     height: 50px;
 
+    padding: 1em;
+
     background-color: #999999;
     z-index: 999;
 }
 
 header h1 {
-
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    font-size: 2em;
 }
