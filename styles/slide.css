@@ -32,16 +32,13 @@ ol, ul, li, dd {
 }
 
 
-
 /* Header Section*/
 header {
     top: 0;
     left: 0;
     right: 0;
 
-    height: 50px;
-
-    padding: 1em;
+    height: 25px;
 
     background-color: #999999;
     z-index: 999;
@@ -51,7 +48,69 @@ header h1 {
     margin: 0;
     padding: 0;
     color: #FFF;
-    font-size: 2em;
+    font-size: 0.5em;
+}
+
+header h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 0.5em;
+	float: left;
+}
+
+/* Navigation Section */
+nav {
+	top: 25px;
+	left: 0;
+	right: 0;
+	z-index: 999;
+
+	/*height: 30px;*/
+	width: 100%;
+	margin: 0 auto;
+	line-height: 30px;
+
+	font-size: small;
+
+	background-color: #FFFFFF;
+}
+
+nav ul {
+	list-style-type: none;
+
+	height: inherit;
+	margin: inherit;
+	padding: inherit;
+}
+
+nav li {
+	width: 180px;
+	height: inherit;
+	margin: inherit;
+	padding: inherit;
+
+	display: inline-block;
+	line-height: inherit;
+	text-align: center;
+}
+
+nav a {
+	width: inherit;
+	height: inherit;
+	margin: inherit;
+	padding: inherit;
+
+	display: block;
+}
+
+nav a:link, a:visited {
+	color: #333333;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #2E8AE6;
+	background-color: #92DFE1;
 }
 
 /* Main Content Section */
@@ -107,7 +166,7 @@ header h1 {
     color: #02A2A4;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-weight: bold;
-    
+
 }
 
 #maincont ul {
@@ -117,6 +176,3 @@ header h1 {
 #maincont ol {
     list-style-type: decimal;
 }
-
-
-
