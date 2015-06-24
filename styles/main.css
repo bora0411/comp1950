@@ -33,15 +33,16 @@ ol, ul, li, dd {
 
 
 
-/* Header Section*/
+/* Header Section */
 header {
+	position: fixed;
     top: 0;
     left: 0;
     right: 0;
 
-    height: 50px;
+    height: 90px;
 
-    padding: 1em;
+    padding: 0 1em;
 
     background-color: #999999;
     z-index: 999;
@@ -54,13 +55,76 @@ header h1 {
     font-size: 2em;
 }
 
+header h2 {
+	margin: 0;
+	margin-top: 1em;
+    padding: 0;
+}
+
+/* Navigation Section */
+nav {
+	position: fixed;
+	top: 90px;
+	left: 0;
+	right: 0;
+	z-index: 999;
+
+	height: 30px;
+	width: 100%;
+	margin: 0 auto;
+	line-height: 30px;
+
+	font-size: 0.9em;
+
+	background-color: #FFFFFF;
+}
+
+nav ul {
+	list-style-type: none;
+
+	height: inherit;
+	margin: inherit;
+	padding: inherit;
+}
+
+nav li {
+	width: 200px;
+	height: inherit;
+	margin: inherit;
+	padding: inherit;
+
+	display: inline-block;
+	line-height: inherit;
+	text-align: center;
+}
+
+nav a {
+	width: inherit;
+	height: inherit;
+	margin: inherit;
+	padding: inherit;
+
+	display: block;
+}
+
+nav a:link, a:visited {
+	color: #333333;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #2E8AE6;
+	background-color: #92DFE1;
+}
+
 /* Main Content Section */
 #docbox {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
     padding: 5px;
-
+	position: relative;
+	top: 120px;
 }
 
 #docbox h1 {
@@ -106,7 +170,7 @@ header h1 {
     color: #02A2A4;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-weight: bold;
-    
+
 }
 
 #maincont ul {
@@ -116,6 +180,3 @@ header h1 {
 #maincont ol {
     list-style-type: decimal;
 }
-
-
-
