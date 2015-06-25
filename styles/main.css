@@ -129,6 +129,7 @@ nav a:hover {
     text-align: center;
     font-weight: bold;
     font-family: 'Ubuntu', sans-serif;
+    margin-top: 10px;
 }
 
 #docbox h2 {
@@ -155,6 +156,7 @@ nav a:hover {
 }
 .intro {
     background-color: #C3E5E6;
+    margin-top: 20px;
 }
 
 .contblock{
